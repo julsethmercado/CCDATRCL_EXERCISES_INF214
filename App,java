@@ -1,0 +1,56 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class App {
+
+    public static void main(String[] args) {
+        Queue<String> HotelReservation = new LinkedList<>();
+
+        // Adds elements to the queue
+        HotelReservation.add("Carlos");
+        HotelReservation.add("Xtian");
+        HotelReservation.add("Seth");
+        HotelReservation.add("Abdul");
+        HotelReservation.add("J-Rhyz");
+       
+    
+          // Display all elements of the queue.
+          System.out.println("Enqueue 5 of your classmates in this section "+ HotelReservation);
+
+        // Returns the number of elements in the queue.
+        System.out.println("Size: " + HotelReservation.size());
+       
+          
+        // Shows the element at the front of the queue
+          System.out.println("Front of the queue: " + HotelReservation.peek());
+
+        // Removes the element at the front of the queue
+       HotelReservation.remove();
+       HotelReservation.remove();
+       HotelReservation.remove();
+       HotelReservation.remove();
+       HotelReservation.remove();
+
+       HotelReservation.add("Xander");
+       HotelReservation.add("Javi");
+       HotelReservation.add("Sevi");
+       HotelReservation.add("Kalix");
+       HotelReservation.add("Hiro");
+
+
+
+        
+        // Display all elements of the queue.
+        System.out.println("Enqueue another 5 of you classmates: "+HotelReservation);
+           
+      // Returns the number of elements in the queue.
+           System.out.println("Size: "+ HotelReservation.size());
+
+           // Shows the element at the front of the queue
+          System.out.println("front of the queue: " + HotelReservation.peek());
+
+    
+    
+    }
+}
+ 
